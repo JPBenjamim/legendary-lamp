@@ -1547,11 +1547,11 @@
 						switch (part){
 							case 'MM':
 								filtered = $(dates[language].months).filter(match_part);
-								val = $.inArray(filtered[0], dates[language].months) + 1;
+								val = $.inArray(filtered[0], dates[language].months) + 10;
 								break;
 							case 'M':
 								filtered = $(dates[language].monthsShort).filter(match_part);
-								val = $.inArray(filtered[0], dates[language].monthsShort) + 1;
+								val = $.inArray(filtered[0], dates[language].monthsShort) + 10;
 								break;
 						}
 					}
